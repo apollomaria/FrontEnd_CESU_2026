@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title> ALGORITMOS E LÓGICA </title>
+
+	<style>
+		mark {
+			background-color: lightblue;
+		}
+		header {
+			text-align: center;
+			background-color: lightblue;
+		} nav {
+			text-align: center;
+		} nav a {
+			text-decoration: none;
+		} footer {
+			text-align: center;
+			background-color: lightblue;
+		}
+		.feedback * {
+			text-align: center;
+		} 
+	</style>
+
+</head>
+
+<body>
+	<header>
+		<h1> Algoritmos e Lógica de Programação </h1>
+		<p> Conhecimentos a respeito de Pseudocódigo (VisualG) </p>
+	</header>
+
+	<nav>
+		<a href="#resumo" target="_self"> [RESUMO] </a>
+		<a href="#quizz" target="_self"> [QUIZZ] </a>
+		<a href="#feedback" target="_self"> [FEEDBACK] </a>
+	</nav>
+
+<div id="main">
+	<section id="resumo">
+		<h2> RESUMO </h2>
+		<h4> 1. ENTRADA ---> 2. PROCESSAMENTO ---> 3. SAÍDA </h4>
+		<p> <mark>EXEMPLOS</mark> </p>
+		<ol>
+			<li> usuário digita login + senha </li>
+			<li> sistema valida user e senha </li>
+			<li> usuário acessa site ou login inválido </li>
+		</ol>
+
+		<h4> CONCEITOS BÁSICOS </h4>
+		<ul>
+			<li> <mark>VARIÁVEIS:</mark> aloca-se espaço na RAM para uso futuro e possuem variância (ex: número de pessoas em um elevador);</li>
+			<li> <mark>CONSTANTES:</mark> define-se na ROM e não mudam (ex: número atual de pessoas em um elevador). </li>
+		</ul>
+	
+		<h5> TIPOS DE DADOS </h5>
+		<ul>
+			<li> <mark>NÚMÉRICOS:</mark> inteiros ou reais;</li>
+			<li> <mark>CARACTERES:</mark> alfabéticos ou alfanuméricos;</li>
+			<li> <mark>LÓGICOS:</mark> verdadeiros ou falsos. </li>
+		</ul>
+
+		<h5> IDENTIFICADORES </h5>
+		<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nome dado às variáveis que obedecem regras básicas e outras específicas das linguagens. </p>
+	
+		<h6> REGRAS BÁSICAS </h6>
+		<ul>
+			<li> identificadores não podem ser nomeados com palavras reservadas;</li>
+			<li> identificadores não podem ter caracteres especiais (exceção: <i>underlines</i> são permitidos);</li>
+			<li> não é possível espaçar palavras com o caractere espaço (é preciso separá-los com <i>underline</i>);</li>
+			<li> identificadores não podem começar com números.</li>
+		</ul>
+	
+		<h5> EXPRESSÕES </h5>
+		<p> As expressões usadas na lógica de programação se dividem entre <mark>ARITMÉTICAS</mark>, sendo estas a multiplicação (*), a divisão (/ ou %), a adição (+) e a subtração (-), em expressões <mark>RELACIONAIS</mark>, sendo estas, respectivamente, o "menor que" e "maior que" (< e >), o "menor ou igual que" e "maior ou igual que" (<= e >=), o diferente (<> ou !=) e o igual (=), e em expressões <mark>LÓGICAS</mark>, como "e" (conjunções), "ou" (disjunções) e "não" (negações). </p>
+	</section>
+
+	<section id="quizz">
+		<form>
+			
+
+		</form>
+	</section>
+</div>
+
+<div class="quizz">
+	<h2> QUIZZ </h2>
+	<section id="quizz">
+		<form>
+			<fieldset>
+				<legend> Perguntas sobre o conteúdo acima </legend>
+
+				<label for="pergunta1"> <mark>1.</mark> Descreva sobre as expressões aritméticas e seus respectiovs símbolos na lógica de programação. </label> <br>
+				<input type="text" id="pergunta1" name="pergunta1"> <br><br> 
+
+				<label for="pergunta2"> <mark>2.</mark> A respeito de expressões lógicas, marque a opção correta. </label> <br>
+					<input type="radio" name="pergunta2"> 1. Entre as expressões lógicas, estão os conceitos de conjução, disjunção e igualdade (=). <br>
+					<input type="radio" name="pergunta2"> 2. O "maior que" e o "menor que" são exemplos de expressões lógicas, enquanto o "igual" e o "diferente" são exemplos de expressões lógicas. <br>
+					<input type="radio" name="pergunta2"> 3. Conjunções e disjunções são expressões lógicas, assim como negações. <br><br>
+
+				<label for="pergunta3"> <mark>3.</mark> Marque todas as opções com nomes de variáveis válidas em VisualG. </label> <br>
+					<input type="checkbox" name="pergunta3"> 1. "leia" <br>
+					<input type="checkbox" name="pergunta3"> 2. "valor x" <br>
+					<input type="checkbox" name="pergunta3"> 3. "1_valor" <br>
+					<input type="checkbox" name="pergunta3"> 4. "número_x" <br>
+					<input type="checkbox" name="pergunta3"> 5. Nenhuma das alternativas. <br><br>
+
+				<label for="pergunta4"> <mark>4.</mark> Analise as seguintes afirmações e marque Verdadeiro ou Falso. <br>
+				<br> I. As variáveis são as características que ficam alocadas na memória RAM e não mudam;
+				<br> II. Um exemplo de Processamento dentro de um sistema é o usuário digitar seu login e sua senha; 
+				<br> III. Os identificadores são nomes dados às variáveis que seguem regras fixas em todas as linguagens;
+				<br> IV. Sobre os tipos de dados, as variáveis lógicas <i>(booleanas)</i> recebem valores ou verdadeiros ou falsos.
+			</label> <br> <br>
+					<input type="radio" name="pergunta4"> 1. F - F - V - V <br>
+					<input type="radio" name="pergunta4"> 2. F - V - V - V <br>
+					<input type="radio" name="pergunta4"> 3. V - F - V - F <br>
+					<input type="radio" name="pergunta4"> 4. F - F - F - V <br>
+					<input type="radio" name="pergunta4"> 5. V - V - F - F <br><br>
+
+				<label for="pergunta5"> <mark>5.</mark> A partir dos diferentes tipos de expressões usadas nas lógica de programação, marque as alternativas que se apliquem: </label> <br>
+					<input type="checkbox" name="pergunta5"> 1. É possível "traduzir" expressões matemáticas complexas para as máquinas. <br>
+					<input type="checkbox" name="pergunta5"> 2. É possível atribuir valores numéricos inteiros ou "quebrados" a uma variável também numérica. <br>
+					<input type="checkbox" name="pergunta5"> 3. Uma variável do tipo caracter também pode comportar caracteres especiais digitados pelo usuário. <br>
+					<input type="checkbox" name="pergunta5"> 4. Os valores constantes ficam alocados na memória RAM e não mudam. <br><br>
+				<input type="submit" value="Enviar">	
+			</fieldset>
+		</form>
+	</section>
+</div>
+
+
+
+
+<div class="feedback">
+	<section id="feedback">
+		<h2> FEEDBACK </h2>
+		<form>
+			<fieldset>
+				<legend> O que achou do material? </legend>
+				<h4> LEGENDA DAS RESPOSTAS </h4>
+				<p> 1 - Discordo completamente <br>
+					<br> 2 - Discordo relativamente <br>
+					<br> 3 - Indiferente <br>
+					<br> 4 - Concordo relativamente <br>
+					<br> 5 - Concordo completamente <br> </p>
+
+				<h4> PERGUNTAS DE FEEDBACK </h4>
+				<label for="pergunta1"> A. O material faz jus ao nível básico? </label> <br>
+					<input type="radio" name="pergunta1"> 1
+					<input type="radio" name="pergunta1"> 2
+					<input type="radio" name="pergunta1"> 3
+					<input type="radio" name="pergunta1"> 4
+					<input type="radio" name="pergunta1"> 5 <br><br>
+
+				<label for="pergunta2"> B. O conteúdo da disciplina está consiso e compreensível? </label> <br>
+					<input type="radio" name="pergunta2"> 1
+					<input type="radio" name="pergunta2"> 2
+					<input type="radio" name="pergunta2"> 3
+					<input type="radio" name="pergunta2"> 4
+					<input type="radio" name="pergunta2"> 5 <br><br>
+
+				<label for="pergunta3"> C. As informações do resumo são úteis para revisar o básico da teoria de lógica?</label> <br>
+					<input type="radio" name="pergunta3"> 1
+					<input type="radio" name="pergunta3"> 2
+					<input type="radio" name="pergunta3"> 3
+					<input type="radio" name="pergunta3"> 4
+					<input type="radio" name="pergunta3"> 5 <br><br>
+
+				<label for="pergunta4"> D. As perguntas do quizz são pertinentes quanto ao conteúdo? </label> <br>
+					<input type="radio" name="pergunta4"> 1
+					<input type="radio" name="pergunta4"> 2
+					<input type="radio" name="pergunta4"> 3
+					<input type="radio" name="pergunta4"> 4
+					<input type="radio" name="pergunta4"> 5 <br><br>
+
+				<label for="pergunta5"> E. Você diria que ficou satisfeito com a quantidade de informações? </label> <br>
+					<input type="radio" name="pergunta5"> 1
+					<input type="radio" name="pergunta5"> 2
+					<input type="radio" name="pergunta5"> 3
+					<input type="radio" name="pergunta5"> 4
+					<input type="radio" name="pergunta5"> 5 <br><br>
+
+				<label for="sugestao"> Alguma sugestão? </label> <br>
+				<input type="text" id="sugestao" name="sugestao"> <br><br> 
+
+				<input type="submit" value="Enviar">	
+			</fieldset>
+		</form>
+	</section>
+</div>
+
+	<footer>
+		<h4> Feito com 💻 Bloco de Notas </h4>
+		<h5> por Apollo </h6>
+	</footer>
+</body>
+
+</html>
