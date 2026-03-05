@@ -1,0 +1,18 @@
+CORES ----------------------------
+
+#ECE5DF 236 229 223
+
+#DFC8B6 223 200 182
+
+#C4C7B6 196 199 182
+
+#859B48 133 155 72
+
+#1D361F 29 54 31
+
+
+CSS TESTERS ---------------------------
+
+https://profdaciomachado.github.io/PROGRAMA-O-FRONT-END-2026-/playgroundCSS.html
+https://profdaciomachado.github.io/PROGRAMA-O-FRONT-END-2026-/SEMANA%204%20-%20CSS/cssTester.html
+

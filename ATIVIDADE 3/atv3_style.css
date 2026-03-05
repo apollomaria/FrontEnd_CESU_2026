@@ -1,0 +1,36 @@
+body {
+	background-color: white;
+}
+
+header {
+	text-align: center;
+	font-family: "Comic Sans MS", sans;
+}
+
+nav ul {
+	background-color: #c4c7b6;
+	padding: 12px 16px;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 60px;
+	list-style-type: square;
+	margin-right: 70px;
+	margin-left: 70px;
+}
+
+nav a { 
+	color: #1d361f; 
+}
+
+nav a:hover { 
+	color: #ffffff; 
+}
+
+aside {
+	background-color: white;
+	justify-content: left;
+}
+
+.artigo {
+	background-color: red;
+}
