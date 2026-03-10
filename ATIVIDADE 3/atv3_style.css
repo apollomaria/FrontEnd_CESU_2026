@@ -4,11 +4,12 @@ body {
 
 header {
 	text-align: center;
-	font-family: "Comic Sans MS", sans;
+	font-family: "Georgia", serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, ul li, pre, tr, tb, td, table, th, details, summary, figcaption, ol li {
 	color: #1D361F;
+	font-family: "Georgia", serif;
 }
 
 nav ul {
@@ -66,8 +67,8 @@ blockquote {
 	font: 14px/22px normal helvetica, sans-serif;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-left: 50px;
-	margin-right: 1350px;
+	margin-left: 120px;
+	margin-right: 1260px;
 	padding-left: 15px;
 	border-left: 3px solid #859B48;
 	background-color: #ECE5DF;
@@ -81,14 +82,55 @@ footer {
 	border-radius: 60px;
 	padding: 1px;
 }
+
 address {
 	padding: 6px;
-}
-pre {
-	color: green;
-	background-color: black;
 }
 
 .envie {
 	text-align: center;
+	background-color: #C4C7B6;
+	border-radius: 60px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+fieldset {
+	background-color: #DFC8B6;
+	color: #1D361F;
+	font-family: "Georgia", serif;
+	margin-left: 120px;
+	margin-right: 120px;
+	border: solid #1D361F 2px;
+	border-radius: 25px;
+	padding: 12px;
+}
+
+input, select, textarea {
+	background-color: #ECE5DF;
+	color: #1D361F;
+	font-family: "Georgia", serif;
+	border: solid #1D361F 2px;
+	border-radius: 5px;
+}
+
+tr, tb, td, table {
+	background-color: #ECE5DF;
+	border: #ECE5DF;
+
+}
+
+th {
+	background-color: #C4C7B6;
+}
+
+table {
+	border: solid #1D361F;
+	border-radius: 5px;
+}
+
+img {
+	border: solid #1D361F 3px;
+	border-radius: 5px;
+	width: 30%;
 }
