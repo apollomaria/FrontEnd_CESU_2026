@@ -24,10 +24,10 @@ function controlador() {
             contador++;
             console.log("Tempo: ", contador);
 
-            if (contador == 5) {
+            if (contador == 10) {
                 criatura.src = estados.bravo;
             }
-            if (contador == 7) {
+            if (contador == 20) {
                 criatura.src = estados.morto;
             }
         }, 1000)
@@ -52,7 +52,6 @@ function alimentar() {
     }, 1000);
 }
 
-
 function atualizarFundo() {
     if (horas) clearInterval(horas);
 
@@ -64,14 +63,10 @@ function atualizarFundo() {
     } else {
         document.body.style.backgroundImage = `url('${fundoDia}')`;
     }
-    // if(horas >=24) horas =0;
+    if(horas >= 24) horas =0;
 
-    }, 100);
+    }, 2000);
 }
-
-function toggleFundo() {
-    checked = document.body.style.backgroundImage = `url('${fundoNoite}')`;
-}
-
 
 controlador();
+atualizarFundo();
