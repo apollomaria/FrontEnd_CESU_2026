@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PROVA DIA 2 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="pag">
+    
+<h1> Grupos e Fatos </h1>
+    
+<div class="tudo">
+    <div class="grupo">
+        <h2 id="nome_grupo1"> 🅰️ Grupo A </h2>
+        <h3> Seleções </h3>
+
+        <ul> 
+            <li> <h4 id="nome_grupo1_selecao1"> México </h4> </li>
+            <li> <h4 id="nome_grupo1_selecao2"> África do Sul </h4> </li>
+            <li> <h5 id="nome_grupo1_selecao3"> Coreia do Sul </h5> </li>
+            <li> <h6 id="nome_grupo1_selecao4"> República Tcheca </h6> </li>
+        </ul>
+
+        <details>
+            <summary> Saiba Mais </summary>
+                <p id="nome_grupo1_fato"> Fatos: O jogo de abertura será México x África do Sul. 
+                Confrontos entre Coreia do Sul e seleções europeias já ocorreram em várias Copas, com histórico equilibrado. </p>
+        </details>
+
+    </div>
+
+    <div class="grupo">
+        <h2 id="nome_grupo2"> 🅱️ Grupo B </h2>
+        <h3> Seleções </h3>
+
+        <ul> 
+            <li> <h4 id="nome_grupo2_selecao1"> Canadá </h4> </li>
+            <li> <h4 id="nome_grupo2_selecao2"> Suíça </h4> </li>
+            <li> <h5 id="nome_grupo2_selecao3"> Catar </h5> </li>
+            <li> <h6 id="nome_grupo2_selecao4"> Vaga Europeia (Bósnia) </h6> </li>
+        </ul>
+
+        <details>
+            <summary> Saiba Mais </summary>
+                <p id="nome_grupo2_fato"> Fatos: O Canadá joga em casa, fator importante de desempenho. Catar e Suíça já se enfrentaram recentemente em amistosos internacionais. </p>
+        </details>
+
+    </div>
+
+    <div class="grupo">
+        <h2 id="nome_grupo3"> 🅲 Grupo C </h2>
+        <h3> Seleções </h3>
+
+        <ul> 
+            <li> <h4 id="nome_grupo3_selecao1"> Brasil </h4> </li>
+            <li> <h4 id="nome_grupo3_selecao2"> Marrocos </h4> </li>
+            <li> <h5 id="nome_grupo3_selecao3"> Haiti </h5> </li>
+            <li> <h6 id="nome_grupo3_selecao4"> Escócia </h6> </li>
+        </ul>
+
+        <details>
+            <summary> Saiba Mais </summary>
+                <p id="nome_grupo3_fato"> Fatos: Brasil, Marrocos e Escócia já dividiram grupo em 1998. Brasil nunca perdeu para a Escócia em Copas. </p>
+        </details>
+
+    </div>
+</div>
+
+   <div style="text-align: center; ">
+       <button style="background-color: #C44545; font-size: large; border-radius: 10px; color: #140606; font-family: Georgia, 'Times New Roman', Times, serif;" onclick="proximo()"> Próxima Página </button>
+    </div>
+
+
+<script> 
+
+    function proximo() {
+        document.getElementById("nome_grupo1").innerHTML = " 🅳 Grupo D ";
+        document.getElementById("nome_grupo1_selecao1").innerHTML = " Estados Unidos ";
+        document.getElementById("nome_grupo1_selecao2").innerHTML = " Paraguai ";
+        document.getElementById("nome_grupo1_selecao3").innerHTML = " Austrália ";
+        document.getElementById("nome_grupo1_selecao4").innerHTML = " Turquia ";
+        document.getElementById("nome_grupo1_fato").innerHTML = " Fatos:  Os EUA jogam em casa, vantagem histórica em Copas.Austrália enfrenta frequentemente seleções sul-americanas em torneios. ";
+
+        document.getElementById("nome_grupo2").innerHTML = " 🅴 Grupo E ";
+        document.getElementById("nome_grupo2_selecao1").innerHTML = " Alemanha ";
+        document.getElementById("nome_grupo2_selecao2").innerHTML = " Equador ";
+        document.getElementById("nome_grupo2_selecao3").innerHTML = " Costa do Marfin ";
+        document.getElementById("nome_grupo2_selecao4").innerHTML = " Curaçao ";
+        document.getElementById("nome_grupo2_fato").innerHTML = " Fatos: Alemanha costuma dominar fases de grupos.Equador e Costa do Marfim têm estilos físicos semelhantes. ";
+        
+        document.getElementById("nome_grupo3").innerHTML = " 🅵 Grupo F ";
+        document.getElementById("nome_grupo3_selecao1").innerHTML = " Holanda ";
+        document.getElementById("nome_grupo3_selecao2").innerHTML = " Japão ";
+        document.getElementById("nome_grupo3_selecao3").innerHTML = " Tunísia ";
+        document.getElementById("nome_grupo3_selecao4").innerHTML = " Suécia ";
+        document.getElementById("nome_grupo3_fato").innerHTML = " Fatos: Brasil, Marrocos e Escócia já dividiram grupo em 1998. Brasil nunca perdeu para a Escócia em Copas. ";
+    }
+
+</script>
+
+</body>
+</html>
