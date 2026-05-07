@@ -6,7 +6,33 @@ function addTask() {
     if (textInput !== '') {
         const newTask = document.createElement('li');
       
-        newTask.innerHTML = `<span> ${textInput} </span>`;
+        newTask.innerHTML = `<span> ${textInput} </span>
+        <button onclick="editTask()"> Editar </button>
+        <button onclick="removeTask(this)"> Remover </button>
+        <button onclick="concludeTask(this)"> Concluir </button>`;
         taskList.appendChild(newTask);
+    }
+}
+
+
+function editTask(button) {
+    const itemToEdit = button.parentElement;
+    
+    
+}
+
+
+function removeTask(button) {
+    const itemToRemove = button.parentElement;
+    taskList.removeChild(itemToRemove);
+}
+
+
+function concludeTask(button) {
+    const itemToConclude = button.parentElement;
+    if (itemToConclude.classList.toggle('completed')){
+        button.innerHTML = `Desmarcar`;  
+    } else {
+        button.innerHTML = `Completar`;
     }
 }
