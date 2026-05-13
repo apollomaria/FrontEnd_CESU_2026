@@ -7,7 +7,7 @@ function addTask() {
         const newTask = document.createElement('li');
       
         newTask.innerHTML = `<span> ${textInput} </span>
-        <button onclick="editTask()"> Editar </button>
+        <button onclick="editTask(this)"> Editar </button>
         <button onclick="removeTask(this)"> Remover </button>
         <button onclick="concludeTask(this)"> Concluir </button>`;
         taskList.appendChild(newTask);
