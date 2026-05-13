@@ -17,8 +17,10 @@ function addTask() {
 
 function editTask(button) {
     const itemToEdit = button.parentElement;
+    const text = itemToEdit.querySelector('span');
     
-    
+    const newText = prompt('Editar a Tarefa', text.textContent);
+    text.textContent = newText;
 }
 
 
