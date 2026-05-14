@@ -37,3 +37,24 @@ li.completed span{
 button {
     margin-top: 10px;
 }
+
+.ap {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.re {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.ex {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
