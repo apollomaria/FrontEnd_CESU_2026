@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title> Crédito para Festas & Eventos </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="todo-app">
+        <h2> Crédito para <br> Festas & Eventos
+ </h2>
+        <div style="display: flex; justify-content: center; flex-direction: column;">
+            <label for="bandeiras"> Selecione o pacote: </label>
+                <select name="bandeiras" id="bandeiras">
+                    <option value="standard"> Standard </option>
+                    <option value="premium"> Premium </option>
+                    <option value="infinity"> Infinity Deluxe </option>
+                </select>
+            <br>
+            <input type="number" id="qtdPessoa" placeholder=" Quantidade de Pessoas" step="1">
+            <br>
+
+            <button id="botao" onclick="calcular()"> Calcular Orçamento </button>
+
+            <h2> Pacotes </h2>
+            <p> • Standard: R$ 50,00 por pessoa.
+            <br> • Premium: R$ 80,00 por pessoa.
+            <br> • Infinity Deluxe: R$ 120,00 por pessoa.
+            </p>
+
+            <h2> Resumo do Orçamento </h2>
+            <p id="lugarCusto"> </p>
+            <p id="lugarTaxa"> </p>
+            <p id="lugarDesconto"> </p>
+            <p id="lugarFinal"> </p>
+        </div>
+        
+        <p id="situacao"> </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
