@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title> teste </title>
+</head>
+
+<body>
+	
+	<script>
+		class Carro {
+			constructor(marca, modelo, caracteristicas) {
+				this.Marca = marca;
+				this.Modelo = modelo;
+				this.Caracteristicas = caracteristicas;
+			}
+
+			exibirDetalhes() {
+			//	alert(`Marca: ${this.Marca} - Modelo: ${this.Modelo}`);
+			//	console.log(`Marca: ${this.Marca} - Modelo: ${this.Modelo}`);
+				document.getElementById("texto").innerHTML = (`Marca: ${this.Marca} - Modelo: ${this.Modelo}`)
+			}
+		}
+			const carro1 = new Carro("Ford", "Ka", ["Preto", 1.0, "2 portas"]);
+
+	</script>
+
+	<button onclick="carro1.exibirDetalhes();"> Meu carro é: </button>
+
+	<br>
+	<p id="texto"> Meu carro é: </p>
+</body>
+</html>

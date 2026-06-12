@@ -1,0 +1,55 @@
+.pag {
+    background-color: #DCCCAC;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topo {
+    font-size: x-large;
+    width: 100%; 
+    padding: 23px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: #C44545;
+    color: #140606;
+}
+
+a {
+    text-decoration: none;
+    color: #140606;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+nav {
+    justify-content: space-around;
+    display: flex;
+}
+
+#organizacao {
+    background: #99AD7A fixed center;
+    border-radius: 50px;
+    padding: 25px;
+    margin: 15px;
+    color: #141d0d;
+}
+
+#formato {
+    background: #99AD7A fixed center;
+    border-radius: 50px;
+    padding: 25px;
+    margin: 15px;
+    color: #141d0d;   
+}
+
+#expectativa {
+    background: #99AD7A fixed center;
+    border-radius: 50px;
+    padding: 25px;
+    margin: 15px;
+    color: #141d0d;
+}

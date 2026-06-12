@@ -1,0 +1,38 @@
+.pag {
+    background-color: #FFF5ED;
+    color: #0E1F40;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+p {
+    text-align: center;
+    width: 105px;
+    padding: 6px;
+}
+
+.grupo {
+    background-color: #D5E1E8;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.tudo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+details {
+    text-align: center;
+}
+
+summary {
+    text-align: center;
+}
+
+
