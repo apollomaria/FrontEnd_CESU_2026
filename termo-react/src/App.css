@@ -1,0 +1,42 @@
+.row {
+  display: flex;
+  gap: 5px;
+  margin: 5px;
+}
+
+.row span {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 24px;
+  font-weight: bold;
+
+  border: 1px solid gray;
+}
+
+.correct {
+  background: green;
+  color: white;
+}
+
+.present {
+  background: goldenrod;
+  color: white;
+}
+
+.absent {
+  background: gray;
+  color: white;
+}
+
+.row span {
+  text-transform: uppercase;
+}
+
+.row span:empty {
+  background: white;
+}
